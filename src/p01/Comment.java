@@ -14,6 +14,6 @@ public class Comment {
 		/*
 		 * 여러 줄 주석은 slash* *slash 사이에 작성
 		 */
-		System.out.println("여러 줄 주석~");
+		System.out.println("여러 줄 주석");
 	}
 }
