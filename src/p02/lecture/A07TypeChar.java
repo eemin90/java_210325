@@ -2,7 +2,7 @@ package p02.lecture;
 
 public class A07TypeChar {
 	public static void main(String[] args) {
-		// char: 2byte(8bit) 문자 저장
+		// char: 2byte(16bit) 문자 저장
 		
 		// javascript
 		// var a = "a";
