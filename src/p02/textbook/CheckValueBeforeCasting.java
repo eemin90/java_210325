@@ -2,6 +2,7 @@ package p02.textbook;
 
 public class CheckValueBeforeCasting {
 	public static void main(String[] args) {
+		// 변환으로 인한 데이터 손실이 발생되지 않도록 한다.
 		int i = 128;
 		
 		if ((i < Byte.MIN_VALUE) || (i > Byte.MAX_VALUE)) {
