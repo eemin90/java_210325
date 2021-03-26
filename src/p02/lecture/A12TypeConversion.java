@@ -9,7 +9,7 @@ public class A12TypeConversion {
 		// 자동 형 변환
 		doubleVar1 = floatVar1; // 8byte <-- 4byte
 		
-		//항제 형 변환(Casting)
+		// 강제 형 변환(Casting)
 //		floatVar1 = doubleVar1; // 4byte <-- 8byte // not ok
 		floatVar1 = (float) doubleVar1;
 		
