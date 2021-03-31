@@ -9,18 +9,24 @@ public class ForPrintFrom1To10Example {
 		
 		// 1~10 홀수만
 		System.out.println("-- 1~10 홀수만 --");
-		for (int i = 1; i <= 10; i++) {
-			if (i % 2 == 1) {
-				System.out.println(i);
-			}
+//		for (int i = 1; i <= 10; i++) {
+//			if (i % 2 == 1) {
+//				System.out.println(i);
+//			}
+//		}
+		for (int i = 1; i <= 10; i += 2) {
+			System.out.println(i);
 		}
 		
 		// 1~10 짝수만
 		System.out.println("-- 1~10 짝수만 --");
-		for (int i = 1; i <= 10; i++) {
-			if (i % 2 == 0) {
-				System.out.println(i);
-			}
+//		for (int i = 1; i <= 10; i++) {
+//			if (i % 2 == 0) {
+//				System.out.println(i);
+//			}
+//		}
+		for (int i = 2; i <= 10; i += 2) {
+			System.out.println(i);
 		}
 		
 		// 10~1
@@ -31,18 +37,24 @@ public class ForPrintFrom1To10Example {
 		
 		// 10~1 짝수만
 		System.out.println("-- 10~1 짝수만 --");
-		for (int i = 10; i >= 1; i--) {
-			if (i % 2 == 0) {
-				System.out.println(i);
-			}
+//		for (int i = 10; i >= 1; i--) {
+//			if (i % 2 == 0) {
+//				System.out.println(i);
+//			}
+//		}
+		for (int i = 10; i >= 1; i -= 2) {
+			System.out.println(i);
 		}
 		
 		// 10~1 홀수만
 		System.out.println("-- 10~1 홀수만 --");
-		for (int i = 10; i >= 1; i--) {
-			if (i % 2 == 1) {
-				System.out.println(i);
-			}
+//		for (int i = 10; i >= 1; i--) {
+//			if (i % 2 == 1) {
+//				System.out.println(i);
+//			}
+//		}
+		for (int i = 9; i >= 1; i -= 2) {
+			System.out.println(i);
 		}
 	}
 }
