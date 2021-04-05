@@ -81,6 +81,8 @@ public class Exercise09 {
 					if (max < score) {
 						max = score;
 					}
+//					max = (max < score) ? score : max;
+//					max = Math.max(max, score);
 				}
 				
 				avg = (double) sum / scores.length;
