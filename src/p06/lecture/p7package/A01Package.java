@@ -4,7 +4,7 @@ public class A01Package {
 	// 클래스를 선언할 때 패키지를 명시할 수 있음
 	// 클래스의 fullName 패키지.className
 	
-	// 이 클래스의 fullNamee: p06.lecture.p7package.A01Package
+	// 이 클래스의 fullName: p06.lecture.p7package.A01Package
 	
 	// 패키지 명시: 파일 첫 줄 package 키워드 + 패키지 경로
 	// 패키지 작명법: 대소문자, $, _, 숫자 조합
