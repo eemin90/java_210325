@@ -27,4 +27,3 @@ public class InstanceofExample {
 		method2(parentB); // 예외 발생
 	}
 }
-                                                                                                                             
