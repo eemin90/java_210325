@@ -1,4 +1,4 @@
-package p08.textbook.exercise.s080302;
+package p08.textbook.s0803022;
 
 import p08.textbook.s080205.RemoteControl;
 
